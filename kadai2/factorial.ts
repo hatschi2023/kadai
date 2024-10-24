@@ -1,5 +1,5 @@
 // 入力値
-const input = prompt("正の整数を入力（全角数字は無効です）：");
+const input = prompt("正の整数を入力：");
 const N = Number(input);
 
 // / 数値以外、０以下の整数、少数の入力は無効とする
