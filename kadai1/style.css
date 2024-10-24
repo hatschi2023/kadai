@@ -31,15 +31,12 @@ body{
 .gray{
     background-color: gray;
 }
-
 .red{
     background-color: red;
 }
-
 .yellow{
     background-color: yellow;
 }
-
 .blue{
     background-color: blue;
 }
@@ -49,11 +46,9 @@ body{
 .selected.red {
     box-shadow: 0 0 20px 10px rgba(255, 0, 0, 0.7);
 }
-
 .selected.yellow {
     box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.669);
 }
-
 .selected.blue {
     box-shadow: 0 0 20px 10px rgba(0, 0, 255, 0.7);
 }
