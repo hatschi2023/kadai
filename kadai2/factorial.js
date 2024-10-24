@@ -1,9 +1,9 @@
 // 入力値
-var input = prompt("正の整数を入力（全角数字は無効です）：");
+var input = prompt("正の整数を入力：");
 var N = Number(input);
+// / 数値以外、０以下の整数、少数の入力は無効とする
 if (isNaN(N) || N <= 0 || !Number.isInteger(N)) {
-    // 数値以外の入力、０以下の整数は無効とする
-    alert("有効な半角の正の整数を入力してください");
+    alert("有効な正の整数を半角数字で入力してください");
 }
 // 階乗計算する関数
 var factorial = function (N) {
