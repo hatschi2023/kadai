@@ -28,27 +28,27 @@ body{
     transition: box-shadow 0.3s ease;
 }
 
-.gray{
+.light-gray{
     background-color: gray;
 }
-.red{
+.light-red{
     background-color: red;
 }
-.yellow{
+.light-yellow{
     background-color: yellow;
 }
-.blue{
+.light-blue{
     background-color: blue;
 }
 
 
 /* 点灯しているようにぼかしを追加 */
-.selected.red {
+.selected.light-red {
     box-shadow: 0 0 20px 10px rgba(255, 0, 0, 0.7);
 }
-.selected.yellow {
+.selected.light-yellow {
     box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.669);
 }
-.selected.blue {
+.selected.light-blue {
     box-shadow: 0 0 20px 10px rgba(0, 0, 255, 0.7);
 }
